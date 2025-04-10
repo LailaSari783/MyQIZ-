@@ -54,4 +54,9 @@ class LoginController extends Controller
 
         return redirect('/home'); // default redirect
     }
+
+    protected function username()
+    {
+        return 'username';
+    }
 }
