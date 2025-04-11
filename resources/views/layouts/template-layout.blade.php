@@ -37,7 +37,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6">
+          {{-- <div class="col-lg-6">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
@@ -91,7 +91,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </div>
             </div>
           </div>
-          <!-- /.col-md-6 -->
+          <!-- /.col-md-6 --> --}}
+
+          @yield('content')
         </div>
         <!-- /.row -->
       </div><!-- /.container-fluid -->
